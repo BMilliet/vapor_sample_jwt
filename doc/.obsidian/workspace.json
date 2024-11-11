@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "35e2272244a0833b",
+    "type": "split",
+    "children": [
+      {
+        "id": "25e462d40b3ce427",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0707b027ad556ef",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "DB-design.canvas",
+                "viewState": {
+                  "x": 850.0204775672272,
+                  "y": 671.3343703049268,
+                  "zoom": -0.3107312855621202
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "DB-design"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3fde9d797e23404",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f0002e698176eb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9187ec80d542cf39",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a5e7f0df96ff8043",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "08d90c5214fd3d7b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fdcc6c2d29c92a4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d935015c744d15ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10a5a84aaaa20a2b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DB-design.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DB-design"
+            }
+          },
+          {
+            "id": "b7d0af51586699a6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DB-design.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DB-design"
+            }
+          },
+          {
+            "id": "0457bd70c1c01a24",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "80b61eb5f1d54276",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DB-design.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DB-design"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e0707b027ad556ef",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "DB-design.canvas"
+  ]
+}

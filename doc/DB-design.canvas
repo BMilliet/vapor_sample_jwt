@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"b7f5f58042af8ad5","type":"text","text":"# Class\n\n- id - UUID\n- class_name\n- class_date: (TIMESTAMP)\n- status: (ENUM: 'available', 'unavailable')\n- class_level (ENUM: 'beginners', 'intermediate', 'advanced')\n- class_category (ENUM: 'gi', 'no-gi')\n- description (TEXT) – Optional detailed description\n- created_at\n- updated_at\n","x":380,"y":1220,"width":540,"height":340,"color":"4"},
+		{"id":"633d34582d0fa4c9","type":"text","text":"# User\n\n- id - UUID\n- name\n- email\n- password_hash\n- belt (ENUM: 'white', 'blue', 'purple', 'brown', 'black')\n- degrees INT\n- plan_id (Foreign Key to `Plans`)\n- frequency\n- created_at\n- updated_at\n- is_active\n- profile_settings JSON\n","x":684,"y":-160,"width":512,"height":420,"color":"5"},
+		{"id":"9600e5a4382b93de","type":"text","text":"# User_Classes\n\n- id - UUID\n- user_id: (Foreign Key to `Users`)\n- class_id: (Foreign Key to `Classes`)\n- status: (ENUM: 'available', 'unavailable')\n- attendance_status: (ENUM: 'registered', 'attended', 'cancelled')\n- created_at\n- updated_at\n","x":684,"y":520,"width":572,"height":300,"color":"6"},
+		{"id":"98b42ebb55c2b731","type":"text","text":"# Instructors\n\n- id - UUID\n- name\n- email\n- password_hash\n- created_at\n- updated_at\n","x":56,"y":-20,"width":460,"height":280,"color":"5"},
+		{"id":"8c6d1b4b57dd5d5d","type":"text","text":"# Class_Instructors\n\n- id - UUID\n- instructor_id: (Foreign Key to `Instructors`)\n- class_id: (Foreign Key to `Classes`)\n- created_at\n- updated_at\n","x":0,"y":520,"width":572,"height":240,"color":"6"},
+		{"id":"5f5dc78b559f2885","type":"text","text":"# Plan\n\n- id - UUID\n- plan_name: (VARCHAR) – E.g., \"Monthly\", \"3 Months\", \"6 Months\", \"Unlimited\"\n- max_classes_per_week - (INT, nullable)\n- price (DECIMAL)\n- validity_period INT\n- created_at\n- updated_at\n","x":1520,"y":100,"width":680,"height":300,"color":"2"}
+	],
+	"edges":[
+		{"id":"5c9184cb7e0723de","fromNode":"633d34582d0fa4c9","fromSide":"right","toNode":"5f5dc78b559f2885","toSide":"left"},
+		{"id":"6cc847b5e7726644","fromNode":"9600e5a4382b93de","fromSide":"top","toNode":"633d34582d0fa4c9","toSide":"bottom"},
+		{"id":"fb10a74b316bbf27","fromNode":"9600e5a4382b93de","fromSide":"bottom","toNode":"b7f5f58042af8ad5","toSide":"top"},
+		{"id":"528b10757e21ba49","fromNode":"8c6d1b4b57dd5d5d","fromSide":"bottom","toNode":"b7f5f58042af8ad5","toSide":"top"},
+		{"id":"e2b0a619468177c1","fromNode":"8c6d1b4b57dd5d5d","fromSide":"top","toNode":"98b42ebb55c2b731","toSide":"bottom"}
+	]
+}
